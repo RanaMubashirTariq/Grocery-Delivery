@@ -168,7 +168,7 @@ export default function NavbarSection(){
 
   {/* Mobile menu panel */}
   {isMenuOpen && (
-    <div className="max-[1100px]:block hidden px-[50px] pb-4">
+    <div className="max-[1100px]:block hidden px-[50px] pb-4 z-50 pt-[100px]">
       <nav className="flex flex-col gap-4 py-3">
       {navigationItems.map((item) => (
   <button
@@ -204,7 +204,7 @@ export default function NavbarSection(){
   <Separator className="w-full h-px bg-[#9b9191]/39" />
 
   {/* Search and Controls Section */}
-  <section className="flex items-center justify-between max-[1000px]:flex-col max-[1000px]:items-start gap-[86px] max-[1000px]:gap-[20px]  pt-[157px] pb-[71px] px-[90px] max-[1100px]:px-[50px] max-[767px]:px-[25px] max-[1000px]:py-10  w-full">
+  <section className="flex items-center justify-between max-[1000px]:flex-col max-[1000px]:items-start gap-[86px] max-[1000px]:gap-[20px]  pt-[157px] pb-[71px] px-[90px] max-[1100px]:px-[50px] max-[767px]:px-[25px] max-[1000px]:py-[130px]  w-full">
     <div className="flex items-center gap-[30px] max-[1100px]:gap-5 w-[379.62px] max-[500px]:w-full">
       <div className="flex flex-col w-[196px] items-start gap-1.5">
         <div className="font-Poppins font-medium text-[#adb0c2] text-[18.7px] max-[767px]:text-[15px] tracking-[0] leading-[100%]">
