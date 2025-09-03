@@ -64,7 +64,7 @@ export default function WhyChooseUsSection() {
 
                 <Button
                   variant="ghost"
-                  className="p-0 w-[122px] h-auto bg-transparent hover:bg-transparent cursor-pointer transform transition-transform duration-300 hover:scale-90"
+                  className="p-0 w-[122px] h-auto bg-transparent hover:bg-transparent  cursor-pointer transform transition-transform duration-300 hover:scale-90"
                 >
                   <img alt="Read more" src={feature.buttonIcon} />
                 </Button>

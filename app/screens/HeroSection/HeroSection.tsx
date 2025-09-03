@@ -68,7 +68,7 @@ export default function HeroSection() {
           {productItems.map((product) => (
             <Card
               key={product.id}
-              className="w-full max-w-[403px] max-[1000px]:w-[300px] h-[451px] bg-[#ffffff] rounded-[20px] overflow-hidden border border-solid border-[#9b9191] relative flex-shrink-0"
+              className="w-full max-w-[403px] max-[1000px]:w-[300px] h-[451px] bg-[#ffffff] rounded-[20px] overflow-hidden border border-solid border-[#9b9191] relative flex-shrink-0 z-11"
             >
               <CardContent className="p-0 relative h-full">
                 <img
