@@ -130,7 +130,7 @@ export default function NavbarSection(){
 </button>
 
     {index < navigationItems.length - 1 && (
-      <div className="h-6 w-px bg-[linear-gradient(270deg,_rgba(155,145,145,0)_0%,_#9B9191_50%,_rgba(155,145,145,0)_100%)]" />
+      <img src="/line-143.png" className="h-6 w-[1.5px]" alt="" />
     )}
   </React.Fragment>
 ))}
@@ -266,10 +266,7 @@ export default function NavbarSection(){
         </div>
       </div>
 
-      <Separator
-        orientation="vertical"
-        className="w-[1.62px] h-[69.01px]  bg-[linear-gradient(270deg,_rgba(155,145,145,0)_0%,_#9B9191_50%,_rgba(155,145,145,0)_100%)]"
-      />
+      <img src="/line-143.png" className="h-[69px] w-[1.5px]" alt="" />
 
       <div className="flex flex-col items-start gap-1.5">
         <div className="font-Poppins font-medium text-[#adb0c2] text-[18.7px] max-[767px]:text-[15px] tracking-[0] leading-[100%]">
