@@ -20,7 +20,7 @@ export default function FruitsAndVeggiesSection  ()  {
 
   return (
         <div className="w-full px-[90px] max-[1100px]:px-[50px] max-[767px]:px-[25px]">
-       <section className="w-full h-[635px] max-[1000px]:h-[800px]  rounded-[40px] max-[500px]:rounded-[25px] overflow-hidden backgroundImage  relative">
+       <section className="w-full h-[635px] max-[1000px]:h-[800px] max-[400px]:h-[760px] rounded-[40px] max-[500px]:rounded-[25px] overflow-hidden backgroundImage  relative">
       <div className="flex flex-col w-[616px] max-[1000px]:w-[100%] pr-[40px] items-start gap-2.5 absolute top-[72px] left-10 max-[1000px]:left-8 ">
         <h2 className="self-stretch   font-Poppins font-medium text-[#ffffff] text-3xl max-[1100px]:text-[24px] max-[767px]:text-[20px] tracking-[0] leading-[normal]">
           Comming soon....
