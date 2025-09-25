@@ -4,7 +4,7 @@ export default function MainContentSection  () {
   return (
          <div className="w-full px-[90px] max-[1100px]:px-[50px] max-[767px]:px-[25px] max-[1000px]:pb-[40px] pb-[107px]">
                   <section className="w-full bg-[#faf6f1] rounded-[40px] max-[500px]:rounded-[25px] overflow-hidden border border-solid border-[#9b9191] relative">
-      <div className="flex flex-col max-[1000px]:items-end lg:flex-row items-start justify-between px-[60px] max-[767px]:px-5 min-h-[648px]">
+      <div className="flex flex-col max-[1000px]:items-center lg:flex-row items-start justify-between px-[60px] max-[767px]:px-5 min-h-[648px]">
         <div className="flex flex-col items-start gap-[23px] max-[500px]:gap-4 max-w-[663px] z-0 relative pt-[107px] max-[1000px]:pt-10">
           <h1 className="font-Poppins font-medium text-[#000000f2] text-[75px] max-[1100px]:text-[52px] max-[1100px]:leading-[60px] max-[1000px]:text-[36px] max-[1000px]:leading-[45px] max-[767px]:text-[28px] max-[767px]:leading-[35px] tracking-[0] leading-[89px]">
             Freee Home Delivery in 24th

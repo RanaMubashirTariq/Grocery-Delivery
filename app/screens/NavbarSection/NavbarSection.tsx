@@ -343,7 +343,7 @@ export default function NavbarSection(){
 
       </div>
 
-      <div className="flex items-end gap-1.5 w-[143px] max-[1300px]:w-[200px] max-[500px]:w-[160px] max-[420px]:w-[110px] max-[365px]:hidden">
+      <div className="flex items-end gap-1.5 w-[143px] max-[1400px]:w-[200px] max-[500px]:w-[160px] max-[420px]:w-[110px] max-[365px]:hidden">
         <div className="relative">
           <img
             className="w-[47px] h-[47px] max-[767px]:h-[30px] max-[767px]:w-[30px]"
