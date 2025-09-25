@@ -40,25 +40,25 @@ export default function WhyChooseUsSection() {
         Why Choose Us
       </h2>
 
-      <div className="flex flex-wrap gap-[31px] relative self-stretch w-full">
+      <div className="flex max-[1300px]:flex-wrap gap-[31px] relative self-stretch w-full">
         {features.map((feature, index) => (
           <Card
             key={index}
-            className=" relative w-[292px] h-[451px] bg-[#ffffff] rounded-[20px] overflow-hidden border border-solid border-[#9b9191] max-[1300px]:w-[48%] max-[1100px]:w-[45%] max-[768px]:w-full"
+            className="  w-[292px] h-[451px] bg-[#ffffff] rounded-[20px] overflow-hidden border border-solid border-[#9b9191] max-[1300px]:w-[48%] max-[1100px]:w-[45%] max-[768px]:w-full"
           >
-            <CardContent className="pr-[24px] h-full relative">
+            <CardContent className="pr-[24px] h-full flex flex-col items-center gap-[58px]">
               <img
-                className="absolute w-[200px] h-[200px] top-[15px] left-[50px] object-cover max-[1300px]:left-1/2 max-[1300px]:-translate-x-1/2"
+                className=" w-[200px] h-[200px] object-cover pt-[31px]"
                 alt="Feature illustration"
                 src={feature.image}
               />
 
-              <div className="absolute top-[255px] left-6 inline-flex flex-col items-center gap-3.5 max-[1300px]:left-1/2 max-[1300px]:-translate-x-1/2">
+              <div className=" inline-flex flex-col items-center gap-3.5">
                 <h3 className="font-Poppins font-semibold text-[#000000] text-xl max-[767px]:text-lg text-center tracking-[0] leading-7 whitespace-pre-line">
                   {feature.title}
                 </h3>
 
-                <p className="w-[244px] max-[1100px]:w-[300px] max-[1000px]:w-[230px] font-Poppins font-medium text-[#000000e6] text-[10px] text-center tracking-[0] leading-[normal] max-[1300px]:w-[80%]">
+                <p className="w-full  font-Poppins font-medium text-[#000000e6] text-[10px] text-center tracking-[0] leading-[normal] max-[1300px]:w-[80%] max-[500px]:w-[100%]">
                   {feature.description}
                 </p>
 

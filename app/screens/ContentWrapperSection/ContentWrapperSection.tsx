@@ -41,11 +41,11 @@ export default function ContentWrapperSection  () {
   ];
 
   return (
-    <div className="flex items-center justify-between gap-[15px] w-full px-[90px] max-[1100px]:px-[50px] max-[767px]:px-[25px] max-[350px]:px-[35px] max-[330px]:px-[25px] max-[1300px]:flex-wrap">
+    <div className="flex items-center justify-between gap-[15px] w-full px-[90px] max-[1100px]:px-[50px] max-[767px]:px-[25px] max-[350px]:px-[35px] max-[330px]:px-[25px] max-[1400px]:flex-wrap">
       {serviceCards.map((card, index) => (
         <Card
           key={index}
-          className="w-[304px] max-[1300px]:w-[48%]  max-[767px]:w-full flex-[0_0_auto] h-[188px] bg-white rounded-[15px] overflow-hidden border border-solid border-[#9b9191] z-11"
+          className="w-[304px] max-[1400px]:w-[48%]  max-[767px]:w-full flex-[0_0_auto] h-[188px] bg-white rounded-[15px] overflow-hidden border border-solid border-[#9b9191] z-11"
         >
           <CardContent className="p-0">
             <div

@@ -333,7 +333,7 @@ export default function NavbarSection(){
       <div className="relative w-full max-w-[603px]  h-[69px] max-[767px]:h-10">
         <Input
           placeholder="Search 10,000+ Groceries..."
-          className="w-full h-full bg-[#ffffff] rounded-[14px] border border-[#9b91913b] px-5 max-[420px]:px-3 py-5 max-[767px]:py-3 font-Poppins font-medium text-[#bab9bc] text-[19px] max-[767px]:text-[14px] tracking-[0] leading-[100%]"
+          className="w-full h-full bg-[#ffffff] rounded-[14px] border border-[#9b91913b] px-5 max-[420px]:px-3 py-5 max-[767px]:py-3 font-Poppins font-medium placeholder:text-[#bab9bc]  text-[#bab9bc] text-[19px] max-[767px]:text-[14px] tracking-[0] leading-[100%]"
         />
          <img
           className="absolute right-5 max-[420px]:right-3  cursor-pointer  top-1/2 transform -translate-y-1/2 w-[23px] h-[23px] max-[767px]:h-[18px] max-[767px]:w-[18px]"
