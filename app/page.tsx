@@ -13,19 +13,21 @@ import MainContentSection from "./screens/MainContentSection/MainContentSection"
 
 export default function Home() {
   return (
-    <div className="w-full overflow-hidden">
+    <div id="home" className="w-full overflow-hidden">
       
       <div id="about">
       <NavbarSection/>
       <MainContentSection/>
       </div>
       <ContentWrapperSection/>
+      <div id="services">
       <DeliveryInfoSection/>
+      </div>
       <HeroSection/>
        <div id="help">
        <NewProductsSection/>
        </div>
-      <div id="desk">
+      <div id="blogs">
       <FeatureHighlightSection/>
       </div>
       <PopularProductsSection/>
