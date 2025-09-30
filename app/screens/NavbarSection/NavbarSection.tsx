@@ -166,10 +166,18 @@ export default function NavbarSection(){
                                     </button>
 
 
-                                    {isMenuOpen && (
-    <div className="max-[1100px]:block hidden px-[20px] pb-4 z-50 pt-[20px] w-[250px] h-[78vh] bg-white border border-green-400 rounded-[20px] mt-[90px] ml-[30px] absolute top-[0px] right-[10px]">
-      <nav className="flex flex-col items-start pl-[3px] gap-4 py-3">
-      {navigationItems.map((item) => (
+                                    {/* Mobile overlay and slide-in panel */}
+                                    {/* Backdrop */}
+                                    <div
+                                      onClick={() => setIsMenuOpen(false)}
+                                      className={`max-[1100px]:block hidden fixed inset-0  z-40 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
+                                    />
+                                    {/* Panel */}
+                                    <div
+                                      className={`max-[1100px]:block hidden fixed top-[90px] right-0 w-[250px] h-[78vh] bg-white border border-green-400 rounded-l-[20px] z-50 px-[20px] pb-4 pt-[20px] transform transition-transform duration-300 ease-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+                                    >
+                                      <nav className="flex flex-col items-start pl-[3px] gap-4 py-3">
+                                      {navigationItems.map((item) => (
   <button
     key={item.label}
     onClick={() => {
@@ -185,20 +193,19 @@ export default function NavbarSection(){
   </button>
 ))}
 
-      </nav>
-      <div className="flex items-center justify-between mt-[30px] w-[200px]">
-      <button>
+                                      </nav>
+                                      <div className="flex items-center justify-between mt-[30px] w-[200px]">
+                                      <button>
                                                 <img src="/account-btn.png" className="w-[151px] h-[36px] cursor-pointer transform transition-transform duration-300 hover:scale-90" alt="" />
                                             </button>
-        <div className="relative ml-4">
-          <img className="w-[40px] h-[40px]" alt="Shopping cart" src="/fi_535234.png" />
-          <Badge className="absolute -top-1 -right-1 w-[17px] h-[17px] bg-[#000000] text-[#ffffff] text-[10.7px] font-medium rounded-full flex items-center justify-center p-0">
-            1
-          </Badge>
-        </div>
-      </div>
-    </div>
-  )}
+                                        <div className="relative ml-4">
+                                          <img className="w-[40px] h-[40px]" alt="Shopping cart" src="/fi_535234.png" />
+                                          <Badge className="absolute -top-1 -right-1 w-[17px] h-[17px] bg-[#000000] text-[#ffffff] text-[10.7px] font-medium rounded-full flex items-center justify-center p-0">
+                                            1
+                                          </Badge>
+                                        </div>
+                                      </div>
+                                    </div>
   </header>
 
   {/* Mobile menu panel */}
