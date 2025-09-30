@@ -164,12 +164,11 @@ export default function NavbarSection(){
                                       <span className="block w-5 h-px bg-black my-1" />
                                       <span className="block w-5 h-px bg-black my-1" />
                                     </button>
-  </header>
 
-  {/* Mobile menu panel */}
-  {isMenuOpen && (
-    <div className="max-[1100px]:block hidden px-[50px] pb-4 z-50 pt-[100px]">
-      <nav className="flex flex-col gap-4 py-3">
+
+                                    {isMenuOpen && (
+    <div className="max-[1100px]:block hidden px-[20px] pb-4 z-50 pt-[20px] w-[250px] h-[81vh] bg-white border border-green-400 rounded-[20px] mt-[90px] ml-[30px] absolute top-[0px] right-[10px]">
+      <nav className="flex flex-col items-start pl-[3px] gap-4 py-3">
       {navigationItems.map((item) => (
   <button
     key={item.label}
@@ -187,7 +186,7 @@ export default function NavbarSection(){
 ))}
 
       </nav>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between mt-[30px] w-[200px]">
       <button>
                                                 <img src="/account-btn.png" className="w-[151px] h-[36px] cursor-pointer transform transition-transform duration-300 hover:scale-90" alt="" />
                                             </button>
@@ -200,6 +199,10 @@ export default function NavbarSection(){
       </div>
     </div>
   )}
+  </header>
+
+  {/* Mobile menu panel */}
+ 
 
   <Separator className="w-full h-px bg-[#9b9191]/39" />
 
