@@ -167,7 +167,7 @@ export default function NavbarSection(){
 
 
                                     {isMenuOpen && (
-    <div className="max-[1100px]:block hidden px-[20px] pb-4 z-50 pt-[20px] w-[250px] h-[81vh] bg-white border border-green-400 rounded-[20px] mt-[90px] ml-[30px] absolute top-[0px] right-[10px]">
+    <div className="max-[1100px]:block hidden px-[20px] pb-4 z-50 pt-[20px] w-[250px] h-[78vh] bg-white border border-green-400 rounded-[20px] mt-[90px] ml-[30px] absolute top-[0px] right-[10px]">
       <nav className="flex flex-col items-start pl-[3px] gap-4 py-3">
       {navigationItems.map((item) => (
   <button
