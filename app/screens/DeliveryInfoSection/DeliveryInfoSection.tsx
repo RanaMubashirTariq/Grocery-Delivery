@@ -26,11 +26,11 @@ export default function DeliveryInfoSection  ()  {
   ];
 
   return (
-    <section className="flex items-center max-[1000px]:flex-col gap-[52px] w-full pt-[95px] px-[90px] max-[1100px]:px-[50px] max-[767px]:px-[25px]">
+    <section className="flex items-center min-[1500px]:justify-center max-[1000px]:flex-col gap-[52px] w-full pt-[95px] px-[90px] max-[1100px]:px-[50px] max-[767px]:px-[25px]">
       {deliveryCards.map((card, index) => (
         <Card
           key={index}
-          className="relative w-full max-w-[604px] max-[1000px]:max-w-[100%] h-[409px] bg-[#faf6f1] rounded-[40px] overflow-hidden border border-solid border-[#9b9191]"
+          className="relative w-full min-[1500px]:max-w-[640px] max-w-[604px] max-[1000px]:max-w-[100%] h-[409px] bg-[#faf6f1] rounded-[40px] overflow-hidden border border-solid border-[#9b9191]"
         >
           <CardContent className="relative w-full h-full p-0">
             <div className="absolute top-[49px] left-10 max-[1300px]:left-5  max-[1300px]:pr-[41px] max-[1000px]:pr-[0px] max-[435px]:pr-[30px] w-full max-w-[523px]  font-Poppins font-medium text-[#000000] text-[31px] max-[1000px]:text-[26px] max-[500px]:text-[22px] tracking-[0] leading-[normal]">

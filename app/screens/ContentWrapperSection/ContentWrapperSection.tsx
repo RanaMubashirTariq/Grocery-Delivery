@@ -41,7 +41,7 @@ export default function ContentWrapperSection  () {
   ];
 
   return (
-    <div className="flex items-center justify-between gap-[15px] w-full px-[90px] max-[1100px]:px-[50px] max-[767px]:px-[25px] max-[350px]:px-[35px] max-[330px]:px-[25px] max-[1400px]:flex-wrap">
+    <div className="flex items-center justify-between min-[1500px]:w-[1500px] min-[1600px]:mx-auto gap-[15px] w-full px-[90px] max-[1100px]:px-[50px] max-[767px]:px-[25px] max-[350px]:px-[35px] max-[330px]:px-[25px] max-[1400px]:flex-wrap">
       {serviceCards.map((card, index) => (
         <Card
           key={index}

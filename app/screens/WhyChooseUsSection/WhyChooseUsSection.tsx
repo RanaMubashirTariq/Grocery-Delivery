@@ -40,11 +40,11 @@ export default function WhyChooseUsSection() {
         Why Choose Us
       </h2>
 
-      <div className="flex max-[1300px]:flex-wrap gap-[31px] relative self-stretch w-full">
+      <div className="flex min-[1500px]:justify-between max-[1300px]:flex-wrap gap-[31px] relative self-stretch w-full min-[1500px]:max-w-[1500px] min-[1500px]:mx-auto">
         {features.map((feature, index) => (
           <Card
             key={index}
-            className="  w-[292px] h-[451px] bg-[#ffffff] rounded-[20px] overflow-hidden border border-solid border-[#9b9191] max-[1300px]:w-[48%] max-[1100px]:w-[45%] max-[768px]:w-full"
+            className=" min-[1700px]:w-[350px] min-[1500px]:w-[320px] w-[292px] h-[451px] bg-[#ffffff] rounded-[20px] overflow-hidden border border-solid border-[#9b9191] max-[1300px]:w-[48%] max-[1100px]:w-[45%] max-[768px]:w-full"
           >
             <CardContent className="pr-[24px] h-full flex flex-col items-center gap-[58px]">
               <img
@@ -54,17 +54,17 @@ export default function WhyChooseUsSection() {
               />
 
               <div className=" inline-flex flex-col items-center gap-3.5">
-                <h3 className="font-Poppins font-semibold text-[#000000] text-xl max-[767px]:text-lg text-center tracking-[0] leading-7 whitespace-pre-line">
+                <h3 className="font-Poppins font-semibold text-[#000000] text-[22px] max-[1500px]:text-xl max-[767px]:text-lg text-center tracking-[0] leading-7 whitespace-pre-line">
                   {feature.title}
                 </h3>
 
-                <p className="w-full  font-Poppins font-medium text-[#000000e6] text-[10px] text-center tracking-[0] leading-[normal] max-[1300px]:w-[80%] max-[500px]:w-[100%]">
+                <p className="w-full  font-Poppins font-medium text-[#000000e6] text-sm max-[1700px]:text-[12px] max-[1500px]:text-[10px] text-center tracking-[0] leading-[normal] max-[1300px]:w-[80%] max-[500px]:w-[100%]">
                   {feature.description}
                 </p>
 
                 <Button
                   variant="ghost"
-                  className="p-0 w-[122px] h-auto bg-transparent hover:bg-transparent  cursor-pointer transform transition-transform duration-300 hover:scale-90"
+                  className="p-0 min-[1500px]:w-[140px] w-[122px] h-auto bg-transparent hover:bg-transparent  cursor-pointer transform transition-transform duration-300 hover:scale-90"
                 >
                   <img alt="Read more" src={feature.buttonIcon} />
                 </Button>

@@ -124,7 +124,7 @@ export default function NavbarSection(){
       }
     }
   }}
-  className="font-Poppins font-medium text-[#000000] text-[15.7px] hover:text-[#019e54] transition-colors cursor-pointer"
+  className="font-Poppins font-medium text-[#000000] text-[17px] max-[1500px]:text-[15.7px] hover:text-[#019e54] transition-colors cursor-pointer"
 >
   {item.label}
 </button>

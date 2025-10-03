@@ -31,14 +31,14 @@ export default function AppPromotionSection() {
   return (
     <div className="w-full px-[90px] max-[1100px]:px-[50px] max-[767px]:px-[25px] pb-[86px] max-[1000px]:pb-10">
       <footer className="w-full bg-[#fbf6f0] rounded-[40px] max-[500px]:rounded-[25px] border border-solid border-[#000000] p-[74px] max-[1300px]:p-10 max-[500px]:p-10 relative">
-        <div className="flex items-start justify-start max-[1020px]:flex-wrap gap-[61px] max-[1100px]:gap-10 mb-[79px] max-[500px]:mb-[30px]">
+        <div className="flex items-start justify-start min-[1500px]:justify-between max-[1020px]:flex-wrap gap-[61px] max-[1100px]:gap-10 mb-[79px] max-[500px]:mb-[30px]">
           {/* Logo and description */}
           <div className="flex flex-col w-[207px] items-start gap-5">
             <img className="w-20 h-20" alt="Logo" src="/logo.png" />
-            <h3 className="self-stretch font-Poppins font-semibold text-[#000000] text-lg">
+            <h3 className="self-stretch font-Poppins font-semibold text-[#000000] text-xl max-[1500px]:text-lg">
               NFT
             </h3>
-            <p className="self-stretch font-Poppins font-normal text-[#000000] text-[13px] leading-6">
+            <p className="self-stretch font-Poppins font-normal text-[#000000] text-[15px] max-[1500px]:text-[13px] leading-6">
               Pioneering intelligent NFTs that blend AI, art, and utility in a
               decentralized future.
             </p>
@@ -48,7 +48,7 @@ export default function AppPromotionSection() {
 
           {/* Explore links */}
           <div className="flex flex-col w-[119px] items-center gap-[15px]">
-            <h4 className="w-[99px] font-Poppins font-semibold text-[#000000] text-lg text-center">
+            <h4 className="w-[99px] font-Poppins font-semibold text-[#000000] text-xl max-[1500px]:text-lg text-center">
               EXPLORE
             </h4>
             <nav className="flex flex-col w-[88px] items-center gap-4">
@@ -56,7 +56,7 @@ export default function AppPromotionSection() {
                 <button
                   key={index}
                   onClick={() => scrollToSection(link.id)}
-                  className="w-fit font-Poppins text-[#000000] text-[15px] text-center tracking-[0.75px] hover:underline"
+                  className="w-fit font-Poppins text-[#000000] text-[17px] max-[1500px]:text-[15px] text-center tracking-[0.75px] hover:underline"
                 >
                   {link.label}
                 </button>
@@ -68,7 +68,7 @@ export default function AppPromotionSection() {
 
           {/* Resource links */}
           <div className="flex flex-col w-[119px] items-center gap-[15px]">
-            <h4 className="font-Poppins font-semibold text-[#000000] text-lg text-center">
+            <h4 className="font-Poppins font-semibold text-[#000000] text-xl max-[1500px]:text-lg text-center">
               RESOURCES
             </h4>
             <nav className="flex flex-col w-[88px] items-center gap-4">
@@ -76,7 +76,7 @@ export default function AppPromotionSection() {
                 <button
                   key={index}
                   onClick={() => scrollToSection(link.id)}
-                  className="font-Poppins text-[#000000] text-[15px] text-center tracking-[0.75px] hover:underline whitespace-nowrap"
+                  className="font-Poppins text-[#000000] text-[17px] max-[1500px]:text-[15px] text-center tracking-[0.75px] hover:underline whitespace-nowrap"
                 >
                   {link.label}
                 </button>
@@ -89,10 +89,10 @@ export default function AppPromotionSection() {
           {/* Newsletter section */}
           <div className="flex flex-col w-[301px] items-start gap-[33px]">
             <div className="flex flex-col w-[209px] items-start gap-[15px]">
-              <h4 className="self-stretch font-semibold text-[#000000] text-lg font-Poppins">
+              <h4 className="self-stretch font-semibold text-[#000000] text-xl max-[1500px]:text-lg font-Poppins">
                 NUMBER
               </h4>
-              <p className="self-stretch h-[42px] text-xs font-Poppins font-medium text-[#000000e6]">
+              <p className="self-stretch h-[42px] text-sm max-[1500px]:text-xs font-Poppins font-medium text-[#000000e6]">
                 Lorem ipsum dolor sit amet consectetur. Quis vitae vitae amet
                 euismod vel sem ac.
               </p>
@@ -115,7 +115,7 @@ export default function AppPromotionSection() {
 
         <div className="flex flex-col w-full items-end gap-[59px] max-[767px]:gap-5">
           <div className="flex items-center justify-between w-full max-[767px]:flex-col gap-5">
-            <p className="font-Poppins text-[#000000] text-lg max-[1000px]:text-base max-[767px]:text-sm text-justify leading-[22.4px] max-[500px]:text-center">
+            <p className="font-Poppins text-[#000000] text-xl max-[1500px]:text-lg max-[1000px]:text-base max-[767px]:text-sm text-justify leading-[22.4px] max-[500px]:text-center">
               Copyright © 2024 Botminds. All rights reserved.
             </p>
             <div className="w-[131px] h-[30.45px] flex items-center justify-between gap-5">

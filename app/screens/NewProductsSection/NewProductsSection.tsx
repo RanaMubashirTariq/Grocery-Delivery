@@ -22,11 +22,11 @@ export default function NewProductsSection  ()  {
   ];
 
   return (
-    <section className="flex items-center max-[1020px]:flex-wrap max-[1020px]:justify-center gap-[29px] w-full px-[90px] max-[1100px]:px-[50px] max-[767px]:px-[25px]">
+    <section className="flex items-center min-[1500px]:justify-between max-[1020px]:flex-wrap max-[1020px]:justify-center gap-[29px] w-full min-[1500px]:max-w-[1500px] min-[1500px]:mx-auto px-[90px] max-[1100px]:px-[50px] max-[767px]:px-[25px]">
       {productCategories.map((category, index) => (
         <Card
           key={index}
-          className="relative w-[293px] h-[280px] max-[767px]:w-[100%] max-[500px]:h-[200px] rounded-[20px]  overflow-hidden border border-solid border-black cursor-pointer hover:opacity-90 transition-opacity"
+          className="relative min-[1500px]:w-[320px] w-[293px] h-[280px] max-[767px]:w-[100%] max-[500px]:h-[200px] rounded-[20px]  overflow-hidden border border-solid border-black cursor-pointer hover:opacity-90 transition-opacity"
           style={{
             background: `${category.backgroundImage} 50% 50% / cover`,
           }}
