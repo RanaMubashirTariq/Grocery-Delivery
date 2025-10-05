@@ -45,7 +45,7 @@ export default function ContentWrapperSection  () {
       {serviceCards.map((card, index) => (
         <Card
           key={index}
-          className="w-[304px] max-[1400px]:w-[48%]  max-[767px]:w-full flex-[0_0_auto] h-[188px] bg-white rounded-[15px] overflow-hidden border border-solid border-[#9b9191] z-11"
+          className="w-[304px] max-[1400px]:w-[48%]  max-[767px]:w-full flex-[0_0_auto] h-[188px] bg-white rounded-[15px] overflow-hidden border border-solid border-[#9b9191] z-11  hover:border-[#019d54] transition-colors duration-300 cursor-pointer"
         >
           <CardContent className="p-0">
             <div
