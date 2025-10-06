@@ -28,7 +28,6 @@ export default function NavbarSection(){
         { label: "Beverages", id: "beverages" },
         { label: "Snacks", id: "snacks" },
         { label: "Meat & Seafood", id: "meat-seafood" },
-        { label: "Household Essentials", id: "household-essentials" },
       ];
       
       const forYouDropdownItems = [
@@ -72,7 +71,7 @@ export default function NavbarSection(){
         };
       
         return (
-          <div className="relative w-full max-w-[81px] z-20">
+          <div className="relative w-full max-w-[196px]  z-20">
             <div
               onClick={() => setOpen(!open)}
               className="z-10 bg-transparent font-['Inter'] font-medium text-white text-[18px] leading-[120%] border-none rounded-[10px] py-1 cursor-pointer flex justify-between items-center gap-[10px]"
@@ -248,7 +247,7 @@ export default function NavbarSection(){
           </Button>
           {isCompanyOpen && (
             <ul
-              className="absolute z-20 mt-2 w-[196px] bg-white border border-[#e5e7eb] rounded-[10px] shadow"
+              className="absolute z-20 mt-2 w-[196px] max-[1100px]:w-[186px] max-[767px]:w-[176px] bg-white border border-[#e5e7eb] rounded-[10px] shadow"
               role="listbox"
             >
               {companyDropdownItems.map((option) => (
@@ -278,7 +277,7 @@ export default function NavbarSection(){
 
       <img src="/line-143.png" className="h-[69px] w-[1.5px]" alt="" />
 
-      <div className="flex flex-col items-start gap-1.5">
+      <div className="flex flex-col items-start gap-1.5 w-[123px]">
         <div className="font-Poppins font-medium text-[#adb0c2] text-[18.7px] max-[767px]:text-[15px] tracking-[0] leading-[100%]">
           For You:
         </div>
@@ -294,7 +293,7 @@ export default function NavbarSection(){
         >
           <Button
             variant="ghost"
-            className="flex items-center gap-[7px] p-0 h-auto hover:bg-transparent"
+            className="flex items-center justify-between gap-[7px] p-0 h-auto hover:bg-transparent"
             onClick={() => setIsForYouOpen((v) => !v)}
             aria-haspopup="listbox"
             aria-expanded={isForYouOpen}
@@ -310,7 +309,7 @@ export default function NavbarSection(){
           </Button>
           {isForYouOpen && (
             <ul
-              className="absolute z-20 mt-2 w-[196px] bg-white border border-[#e5e7eb] rounded-[10px] shadow"
+              className="absolute z-20 mt-2 w-[140px] max-[767px]:w-[120px] bg-white border border-[#e5e7eb] rounded-[10px] shadow"
               role="listbox"
             >
               {forYouDropdownItems.map((option) => (
