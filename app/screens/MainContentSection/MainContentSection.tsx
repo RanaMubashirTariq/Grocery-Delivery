@@ -16,7 +16,7 @@ export default function MainContentSection  () {
           </p>
 
           <img
-            className="flex-[0_0_auto] cursor-pointer transform transition-transform duration-300 hover:scale-90"
+            className="flex-[0_0_auto] max-[500px]:w-[130px] max-[500px]:h-[36px] cursor-pointer transform transition-transform duration-300 hover:scale-90"
             alt="Frame"
             src="/frame-2147223420-1.png"
           />
