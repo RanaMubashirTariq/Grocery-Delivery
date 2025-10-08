@@ -7,12 +7,12 @@ export default function FruitsAndVeggiesSection  ()  {
     {
       src: "/360_F_398059575_h3XJtdGMNhieUcDYwwkrSVt0PoVGAuai-removebg-preview 2.png",
       alt: "Download on App Store",
-      className: "w-[266.48px] h-[97.87px] max-[767px]:w-[180px] max-[767px]:h-[60px]",
+      className: "w-[266.48px] h-[97.87px] max-[767px]:w-[180px] max-[767px]:h-[60px] max-[500px]:w-[130px] max-[500px]:h-10",
     },
     {
       src: "/360_F_398059575_h3XJtdGMNhieUcDYwwkrSVt0PoVGAuai-removebg-preview-1.png",
       alt: "Get it on Google Play",
-      className: "w-[251.06px] h-[94.15px] ml-[-17.54px] max-[767px]:w-[180px] max-[767px]:h-[60px]",
+      className: "w-[251.06px] h-[94.15px] ml-[-17.54px] max-[767px]:w-[180px] max-[767px]:h-[60px] max-[500px]:w-[130px] max-[500px]:h-10 max-[340px]:ml-0",
     },
   ];
 
@@ -37,7 +37,7 @@ export default function FruitsAndVeggiesSection  ()  {
         Available on
       </div>
 
-      <div className="inline-flex items-start max-[380px]:flex-col max-[365px]:items-center max-[1000px]:left-8  absolute top-[476px] max-[1000px]:top-[300px] max-[365px]:top-[350px] left-[100px] max-[1500px]:left-[42px]">
+      <div className="inline-flex items-start max-[500px]:gap-2 max-[340px]:gap-[4px] max-[320px]:flex-col max-[365px]:items-center max-[1000px]:left-8  absolute top-[476px] max-[1000px]:top-[300px] max-[365px]:top-[350px] left-[100px] max-[1500px]:left-[42px] max-[767px]:left-[25px] z-51">
         {appStoreButtons.map((button, index) => (
           <img
             key={index}
@@ -48,7 +48,11 @@ export default function FruitsAndVeggiesSection  ()  {
         ))}
       </div>
 
-         <img src="/phone-img.png" className="w-[700px] max-[1500px]:w-[500px] h-[594px] max-[1100px]:w-[400px]  max-[1100px]:h-[594px] max-[1100px]:top-[140px] max-[1000px]:top-[300px] max-[1100px]:right-[0px] max-[1000px]:right-[150px] max-[767px]:right-0  object-contain absolute right-[39px] top-[77px]" alt="" />
+         <img src="/phone-img.png" className="w-[700px] max-[1500px]:w-[500px]
+          h-[594px] max-[1100px]:w-[400px]  max-[1100px]:h-[594px]
+          max-[1100px]:top-[140px] max-[1000px]:top-[300px] max-[500px]:top-[310px]
+          max-[1100px]:right-[0px] max-[1000px]:right-[150px] max-[767px]:right-0 
+           object-contain max-[1500px]:object-cover max-[1350px]:object-contain max-[1350px]:right-[-30px] max-[1350px]:top-[78] absolute right-[39px] top-[58px]" alt="" />
 
     </section>
         </div>
