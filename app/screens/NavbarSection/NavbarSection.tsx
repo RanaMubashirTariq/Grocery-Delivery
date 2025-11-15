@@ -140,7 +140,7 @@ export default function NavbarSection(){
                                                 <img src="/account-btn.png" className="w-[151px] h-[36px] cursor-pointer transform transition-transform duration-300 hover:scale-90" alt="" />
                                             </button>
 
-                                        <div className="relative">
+                                        <div className="relative cursor-pointer transform transition-transform duration-300 hover:scale-90">
                                         <img
                                             className="w-[45px] h-[45px]"
                                             alt="Shopping cart"
@@ -240,7 +240,7 @@ export default function NavbarSection(){
               {companySelected}
             </span>
             <img
-              className={`w-6 h-6 max-[767px]:h-[20px] max-[767px]:w-[20px] transition-transform  cursor-pointer ${isCompanyOpen ? "rotate-90" : ""}`}
+              className={`w-6 h-6 max-[767px]:h-[20px] max-[767px]:w-[20px] transition-transform  cursor-pointer ${isCompanyOpen ? "rotate-180" : ""}`}
               alt="Chevron left"
               src="/chevron-left-green.png"
             />
@@ -302,7 +302,7 @@ export default function NavbarSection(){
               {forYouSelected}
             </span>
             <img
-              className={`w-6 h-6 max-[767px]:h-[20px] max-[767px]:w-[20px] transition-transform cursor-pointer ${isForYouOpen ? "rotate-90" : ""}`}
+              className={`w-6 h-6 max-[767px]:h-[20px] max-[767px]:w-[20px] transition-transform cursor-pointer ${isForYouOpen ? "rotate-180" : ""}`}
               alt="Chevron left"
               src="/chevron-left-green.png"
             />
@@ -353,9 +353,9 @@ export default function NavbarSection(){
       </div>
 
       <div className="flex items-end gap-1.5 w-[143px] max-[1400px]:w-[200px] max-[500px]:w-[160px] max-[420px]:w-[110px] max-[365px]:hidden">
-        <div className="relative">
+        <div className="relative cursor-pointer transform transition-transform duration-300 hover:scale-90">
           <img
-            className="w-[47px] h-[47px] max-[767px]:h-[30px] max-[767px]:w-[30px]"
+            className="w-[47px] h-[47px] max-[767px]:h-[30px] max-[767px]:w-[30px] "
             alt="Wishlist"
             src="/fi_4906355.png"
           />

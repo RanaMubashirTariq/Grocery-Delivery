@@ -48,7 +48,7 @@ export default function WhyChooseUsSection() {
           >
             <CardContent className="pr-[24px] h-full flex flex-col items-center gap-[58px]">
               <img
-                className=" w-[200px] h-[200px] object-cover pt-[31px]"
+                className=" w-[200px] h-[200px] object-cover pt-[31px] cursor-not-allowed"
                 alt="Feature illustration"
                 src={feature.image}
               />

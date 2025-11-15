@@ -56,7 +56,7 @@ export default function AppPromotionSection() {
                 <button
                   key={index}
                   onClick={() => scrollToSection(link.id)}
-                  className="w-fit font-Poppins text-[#000000] text-[17px] max-[1500px]:text-[15px] text-center tracking-[0.75px] hover:underline"
+                  className="cursor-pointer w-fit font-Poppins text-[#000000] text-[17px] max-[1500px]:text-[15px] text-center tracking-[0.75px] hover:underline"
                 >
                   {link.label}
                 </button>
@@ -76,7 +76,7 @@ export default function AppPromotionSection() {
                 <button
                   key={index}
                   onClick={() => scrollToSection(link.id)}
-                  className="font-Poppins text-[#000000] text-[17px] max-[1500px]:text-[15px] text-center tracking-[0.75px] hover:underline whitespace-nowrap"
+                  className="cursor-pointer font-Poppins text-[#000000] text-[17px] max-[1500px]:text-[15px] text-center tracking-[0.75px] hover:underline whitespace-nowrap"
                 >
                   {link.label}
                 </button>
@@ -105,7 +105,7 @@ export default function AppPromotionSection() {
                 className="w-full h-full py-[12.5px] pl-5 placeholder:text-[#9b9191] text-[#9b9191] rounded-[14px] text-[14px] font-medium font-Poppnis bg-white outline-none border-none"
               />
               <img
-                className="w-[135px] h-[36px] max-[1300px]:w-[110px] absolute top-[10px] right-[20px] cursor-pointer transform transition-transform duration-300 hover:scale-90"
+                className="w-[135px] h-[36px] max-[1300px]:w-[90px] max-[1300px]:h-[30px] max-[1300px]:w-[110px] max-[1300px]:top-[12px] absolute top-[10px] right-[20px] cursor-pointer transform transition-transform duration-300 hover:scale-90"
                 alt="Frame"
                 src="/6692584-1.png"
               />
